@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+
+body {
+    background: #E5E5E5;  
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Staatliches', cursive;
+}
+
+body ::before {
+
+    content: '';
+    width: 100%;
+    height: 436px;
+    background:  #535971;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.page {
+
+width: 750px;
+margin: auto;
+}
+    
+header {
+    font-family: 'Staatliches', cursive;
+    width: 1440px;
+    margin: ;
+}
+
+header  h1 {
+    margin-top: 140px;
+    font-size: 48px;
+line-height: 60px;
+color: #FFFFFF;
+    
+}
+header p {
+    margin-bottom: 100px;
+    font-size: 20px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+}
+fieldset {
+
+    border: none;
+    
+}
+.fieldset-wrapper {
+
+    display: flex;
+    flex-direction: column; 
+    gap: 24px;
+   
+    
+}
+form {
+    background: #FFFFFF;
+    min-height: 300px;
+    padding: 64px ;
+    
+    display: flex;
+ flex-direction: column;
+ border-bottom:  1px solid #E6E6F0;
+ 
+
+}
+.line {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
+
+
+  
+.names {
+
+    display: flex;
+    margin-top: 36px;
+    gap: 22px;
+}
+
+fieldset legend {
+    font-size: 24px;
+    line-height: 34px;
+    
+    border-bottom: 1px solid #E6E6F0;
+    font-family: 'Staatliches', cursive;
+    
+    color: #535971;
+
+}
+    
+.input-wrapper {
+
+    font-size: 14px;
+line-height: 24px;
+
+display: flex;
+flex-direction: column;
+
+color: #4E4958;
+}
+
+.input-wrapper input {
+
+    height: 56px;
+    width: 300px;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    background: #FAFAFC;
+}
+.input-wrapper label {
+
+    font-size: 14px;
+line-height: 24px;
+font-family: 'Poppins', sans-serif;
+color: #4E4958;
+}
+.input-wrapper label span {
+
+    margin-left: 12px;
+    font-size: 12px;
+line-height: 20px;
+color: #C1BCCC;;
+}
+
+.input-wrapper input#event-email, 
+.input-wrapper input#event-password,  
+.input-wrapper input#event-mentor {
+
+    width: 622px;
+}
+
+.col-3 {
+    display: flex;
+}
+
+.input-wrapper input#event-begin {
+    width: 140px;
+  
+    
+}
+
+.input-wrapper input#event-password {
+    margin-bottom: 30px;
+}
+
+footer  {
+
+    background-color: #535971;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    padding: 52px 71px;
+    margin-top: 50px;
+ 
+    border-radius: 0 0 8px 8px;
+ 
+
+  }
+   
+  footer .button {
+
+    background:#FF5374;
+    height: 56px;
+    border: 0;
+    border-radius: 8px;
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+   
+    color: #FFFFFF;
+  }
+    
+    
+ 
